@@ -1,0 +1,16 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./run.sh",
+    "restart": "./restart.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dadhx01:oidigital/mockserver.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

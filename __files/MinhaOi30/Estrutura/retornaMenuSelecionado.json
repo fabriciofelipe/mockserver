@@ -1,0 +1,74 @@
+{
+    "sidebar-movel-pos-mais": {
+        "id": "sidebar-movel-pos-mais",
+        "itens": [
+            {
+                "nome": "OUTROS SERVIÇOS",
+                "url": "#",
+                "id": "outros-servicos",
+                "itens": [
+                    {
+                        "nome": "Bloqueio por perda ou roubo",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=perf_consumo&numTerminal=:terminal",
+                        "id": "bloqueio-perda-roubo",
+                        "icone":"internet",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Ativar/desativar serviços",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_dt_vencimento&numTerminal=:terminal",
+                        "id": "ativar-desativar-servicos",
+                        "icone":"tvhd",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Histórico de ações",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_end_cobranca&numTerminal=:terminal",
+                        "id": "historico-de-acoes",
+                        "icone":"internet",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Comprar mais Internet",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_end_cobranca&numTerminal=:terminal",
+                        "id": "comprar-mais-internet",
+                        "icone":"tvhd",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

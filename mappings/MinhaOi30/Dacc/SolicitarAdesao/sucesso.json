@@ -1,0 +1,29 @@
+{
+    "priority": 3,
+    "request": {
+      "method": "POST",
+      "urlPattern": "/servicos/api/dacc/aderir/21989933758",
+      "headers": {
+        "x-origin-application": {
+            "matches": "(.+)"
+        },
+        "x-origin-channel": {
+            "matches": "(.+)"
+        },
+        "x-cpf": {
+            "matches": "(.+)"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "body": "{\"protocolo\": \"201800204169782\"}"
+    }
+  }
+  

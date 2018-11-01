@@ -1,0 +1,9 @@
+{
+"terminais":["21989933758"],
+"tipos":{
+    "21989933758": {
+        "categoria":"fxo",
+         "tipoTerminal": "movel-pos"
+        }
+    }
+}

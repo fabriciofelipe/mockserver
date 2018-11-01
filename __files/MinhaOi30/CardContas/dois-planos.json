@@ -1,0 +1,52 @@
+{
+	"planos": [
+		{
+			"nomePlano": "Oi Conta Total",
+			"terminais": ["(21) 99999-9999"],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-1",
+					"valor": 100.5,
+					"vencimento": "14/05/2018",
+					"tem14Meses": false,
+					"faturaGerada": true,
+					"clienteTV": true,
+					"diasAVencer": 0
+				}
+			]
+		},
+		{
+			"nomePlano": "Oi TV",
+			"terminais": ["279819-1"],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-2",
+					"valor": 230.5,
+					"vencimento": "25/02/2018",
+					"tem14Meses": false,
+					"faturaGerada": true,
+					"clienteTV": true,
+					"diasAVencer": 13
+				}
+			]
+		},
+		{
+			"nomePlano": "Oi Colaborador",
+			"terminais": ["(21) 99999-9999"],
+			"dacc": true,
+			"faturas": [
+				{
+					"idFatura": "279819-3",
+					"valor": 0,
+					"vencimento": "01/06/2018",
+					"codigoBarras": "1001 1100 0011 1111",
+					"tem14Meses": false,
+					"faturaGerada": false,
+					"clienteTV": false
+				}
+			]
+		}
+	]
+}
