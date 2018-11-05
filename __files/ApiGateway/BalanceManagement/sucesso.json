@@ -3,7 +3,7 @@
     "bucketBalance": [
         {
             "id": "10540",
-            "name": "Oi Total Completo 14GB",
+            "name": "Total Completo 14GB",
             "bucketType": "data",
             "reservedAmount": 2411520,
             "remainedAmount": 2411520,
@@ -16,7 +16,7 @@
         },
         {
             "id": "10541",
-            "name": "Oi Total Completo 14GB",
+            "name": "Total Completo 14GB",
             "bucketType": "additional data",
             "reservedAmount": 1024,
             "remainedAmount": 1000,
